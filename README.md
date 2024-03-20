@@ -4,13 +4,15 @@
 
 а также (в строках 8-17):
 
-`# Необходимо вставить данные своего сервера`
-`connection = mysql.connector.connect(`
-`    host="",`
-`    user="",`
-`    password="",`
-`    database=""`
-`)`
-``
-`# Необходимо вставить свой API Telegram Bot`
-`bot = telebot.TeleBot('')`
+```
+# Необходимо вставить данные своего сервера
+connection = mysql.connector.connect(
+    host="",
+    user="",
+    password="",
+    database=""
+)
+
+# Необходимо вставить свой API Telegram Bot
+bot = telebot.TeleBot('')
+```
