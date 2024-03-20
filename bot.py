@@ -110,5 +110,5 @@ def callback_message(callback):
     else:
         file = open('./torrent/' + callback.data + '.torrent', 'rb')
         bot.send_document(callback.message.chat.id, file)
-    
+
 bot.infinity_polling()
