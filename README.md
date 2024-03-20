@@ -18,3 +18,5 @@ connection = mysql.connector.connect(
 # Необходимо вставить свой API Telegram Bot
 bot = telebot.TeleBot('')
 ```
+
+..а также необходима база данных MariaDB (MySQL)..
